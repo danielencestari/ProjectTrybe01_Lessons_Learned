@@ -1,59 +1,91 @@
+* {
+  margin: 0;
+}
 
-   body {
-    background-color: rgb(253, 251, 251);
-    margin: 0px;
-    top: 0px;
-    padding: 10px, 10px, 10px, 10px;
-    font-family: Roboto, sans-serif;
-    text-align: justify;
-  }
+body {
+  background-color: rgb(253, 251, 251);
+  margin-top: 200px;
+  box-sizing: border-box;
+}
 
-  header {
-    position: fixed;
-    top: 0;
-    background-color: rgb(0, 42, 56);
-    color: antiquewhite;
-    width: 100%;
-    height: 10%;
-  }
-  #titulo {
-    text-align: center;
-  }
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: rgb(14, 81, 104);
+  box-sizing: border-box;
+  padding: 20px 40px;
+  margin-bottom: 50px;
+}
 
-  #licoes {
-    display: flex;
-    flex-direction: row;
-    border:1px solid black;
-    background-color:peachpuff;
-    justify-content: space-around;
-    flex-direction: row;
-    padding: 15px;
-    color: rgb(37, 36, 36);
-    font-size: 1em;
-    align-items: center;
-  }
+#titulo {
+  text-align: center;
+  font-family: serif;
+  font-size: 48px;
+}
 
-  footer {
-    clear: both;
-  }
+nav {
+  font-size: 25px;
+  color: aqua;
+  text-decoration: underline;
+}
 
-  div{
-    display: flex;
-    flex-direction: row;
-  }
+nav a {
+  line-height: 2px;
+  color: aqua;
+}
 
-  #minha_foto {
-    width: 15%;
-    margin-top: 110px;
-    margin-left: 20px;
-  }
+#minha_foto {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 340px;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 20px;
+  float: left;
+}
 
-  #rodape {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    clear: both;
-    text-align: center;
-    margin: 0 65px 25px;
-    padding: 0 20px;
-  }
+#licoes_aprendidas {
+  margin-left: 15px;
+  font-size: 20px;
+  line-height: 25px;
+  float: left;
+  padding: 40px, 40px, 40px, 40px;
+}
+
+#licoes_a_aprender {
+  float: left;
+  padding: 40px, 40px, 40px, 40px;
+  font-size: larger;
+  line-height: 25px;
+}
+
+.lado-esquerdo {
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.lado-direito {
+  font-size: 20px;
+  line-height: 25px;
+  padding: 40px, 40px, 40px, 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+table {
+  font-size: 20px;
+}
+
+footer {
+  clear: both;
+  font-size: 20px;
+  line-height: 25px;
+  background-color: rgb(14, 81, 104);
+  position: relative;
+  max-width: 100%;
+  padding: 40px 40px;
+  text-align: center;
+}
